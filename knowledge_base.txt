@@ -1,0 +1,11 @@
+Joe Adely is a Computer Science graduate with hands-on experience building generative AI applications in Python.
+
+Joe built a retrieval-augmented generation website chatbot using Python, LangChain, the OpenAI API, and AWS. The application retrieves relevant source passages before generating responses.
+
+Joe uses ChatGPT and Microsoft Copilot for data-analysis scripting, technical documentation, and troubleshooting in a professional research-and-development setting.
+
+Joe has experience with optical assay development, microscopy workflows, preclinical R&D support, laboratory sample processing, clinical documentation, and regulated pharmaceutical environments.
+
+Joe's technical strengths include Python, MATLAB, Minitab, data validation, verification, quality assurance, source-grounded response generation, AI-assisted coding, and AI-assisted debugging.
+
+Joe has authored SOPs, supported audit readiness, trained laboratory technicians, and collaborated with research, clinical, engineering, and operations teams.
