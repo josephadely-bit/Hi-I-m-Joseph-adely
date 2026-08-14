@@ -1,2 +1,35 @@
-# Hi-I-m-Joseph-adely
-I build practical AI applications and support data-driven R&amp;D workflows with Python, generative AI, retrieval-augmented generation, and structured technical documentation. My background combines computer science, laboratory and clinical operations, optical assay R&amp;D, data validation, quality assurance, and work in regulated environments.
+# Joe Adely — Python RAG Website Chatbot
+A portfolio-ready retrieval-augmented generation (RAG) application built in Python. The project demonstrates document ingestion, transparent relevance ranking, source-grounded context assembly, optional OpenAI generation, and basic automated tests.
+Why this project matters
+RAG applications combine search with language-model generation. Instead of asking a model to answer from memory alone, this project first retrieves relevant passages from a small knowledge base and then uses those passages as the answer context. The design makes the evidence used for each response visible to the user.
+Skills demonstrated
+	•	Python application development
+	•	Text preprocessing and document ingestion
+	•	Retrieval-pipeline design
+	•	Prompt construction and source grounding
+	•	OpenAI API integration
+	•	Configuration through environment variables
+	•	Automated testing with `pytest`
+	•	Clear technical documentation
+  
+joe-adely-rag-chatbot/
+├── data/knowledge_base.txt
+├── src/rag_chatbot.py
+├── tests/test_rag_chatbot.py
+├── .env.example
+├── requirements.txt
+└── README.md
+git clone https://github.com/Josephadely-bit/joe-adely-rag-chatbot.git
+cd joe-adely-rag-chatbot
+python -m venv .venv
+source .venv/bin/activate       # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python -m src.rag_chatbot "What AI skills does Joe demonstrate?"
+
+The default mode works without an API key and returns retrieved evidence. To enable answer generation, copy `.env.example` to `.env` and set `OPENAI_API_KEY`.
+
+cp .env.example .env
+python -m src.rag_chatbot "What scientific experience does Joe have?" --generate
+
+pytest -q
+
