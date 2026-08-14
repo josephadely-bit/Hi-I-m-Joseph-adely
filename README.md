@@ -1,35 +1,58 @@
-# Joe Adely — Python RAG Website Chatbot
-A portfolio-ready retrieval-augmented generation (RAG) application built in Python. The project demonstrates document ingestion, transparent relevance ranking, source-grounded context assembly, optional OpenAI generation, and basic automated tests.
-Why this project matters
-RAG applications combine search with language-model generation. Instead of asking a model to answer from memory alone, this project first retrieves relevant passages from a small knowledge base and then uses those passages as the answer context. The design makes the evidence used for each response visible to the user.
-Skills demonstrated
-	•	Python application development
-	•	Text preprocessing and document ingestion
-	•	Retrieval-pipeline design
-	•	Prompt construction and source grounding
-	•	OpenAI API integration
-	•	Configuration through environment variables
-	•	Automated testing with `pytest`
-	•	Clear technical documentation
-  
-joe-adely-rag-chatbot/
-├── data/knowledge_base.txt
-├── src/rag_chatbot.py
-├── tests/test_rag_chatbot.py
-├── .env.example
-├── requirements.txt
-└── README.md
-git clone https://github.com/Josephadely-bit/joe-adely-rag-chatbot.git
-cd joe-adely-rag-chatbot
-python -m venv .venv
-source .venv/bin/activate       # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python -m src.rag_chatbot "What AI skills does Joe demonstrate?"
+# Hi, I’m Joe Adely
 
-The default mode works without an API key and returns retrieved evidence. To enable answer generation, copy `.env.example` to `.env` and set `OPENAI_API_KEY`.
 
-cp .env.example .env
-python -m src.rag_chatbot "What scientific experience does Joe have?" --generate
 
-pytest -q
+## Applied AI & Scientific Data Professional
+
+
+
+I build practical AI applications and support data-driven R&D workflows with Python, generative AI, retrieval-augmented generation, and structured technical documentation. My background combines computer science, laboratory and clinical operations, optical assay R&D, data validation, quality assurance, and work in regulated environments.
+
+
+
+### Focus Areas
+
+
+
+| Area | Experience |
+
+| --- | --- |
+
+| **Python & data analysis** | Python, MATLAB, Minitab, data validation, performance metrics, quality assurance |
+
+| **Generative AI** | RAG, LangChain, OpenAI API, source-grounded responses, prompt-based application design |
+
+| **Scientific & healthcare context** | Optical assays, microscopy workflows, preclinical R&D, laboratory sample processing, clinical documentation |
+
+| **AI-assisted workflows** | ChatGPT and Microsoft Copilot for scripting, documentation, analysis, and troubleshooting |
+
+| **Professional strengths** | SOP development, compliance-minded processes, technical communication, multidisciplinary collaboration |
+
+
+
+### Featured Project
+
+
+
+**[Python RAG Website Chatbot](./joe-adely-rag-chatbot)** demonstrates a lightweight retrieval-augmented generation workflow. It loads source documents, ranks relevant passages with transparent lexical scoring, and can optionally use the OpenAI API to generate an answer grounded in the retrieved context.
+
+
+
+### Current Career Direction
+
+
+
+I am interested in applied AI, AI-agent evaluation, scientific-data review, Python development, and multidisciplinary projects where careful reasoning and clear communication matter.
+
+
+
+### Contact
+
+
+
+- Email: JosephAdely@gmail.com
+- 
+- Location: Melbourne, Florida
+- 
+
 
